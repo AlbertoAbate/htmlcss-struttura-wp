@@ -12,7 +12,6 @@ body {
 #container{
   padding: 20px 30px;
   width: 1000px;
-  height: 1000px;
   margin: 30px auto;
   border: 3px solid black;
 }
@@ -30,7 +29,7 @@ main::after {
 /* header */
 header {
   background-color: yellow;
-  height: 130px;
+  height: 150px;
   margin: 5px 15;
 }
 
@@ -59,4 +58,10 @@ section {
     width: 20%;
     height: 200px;
     margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+  background-color: lightblue;
+  height: 100px;
 }
